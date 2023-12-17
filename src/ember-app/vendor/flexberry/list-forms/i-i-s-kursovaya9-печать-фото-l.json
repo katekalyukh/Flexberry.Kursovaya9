@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya9-печать-фото-e",
+  "editForm": "i-i-s-kursovaya9-печать-фото-e",
+  "external": false,
+  "caption": "Печать фото",
+  "name": "IISKursovaya9ПечатьФотоL",
+  "className": "ПечатьФотоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya9-печать-фото",
+      "modelProjection": "ПечатьФотоL"
+    }
+  ]
+}

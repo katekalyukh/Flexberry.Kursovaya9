@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya9-фотокиоск-e",
+  "editForm": "i-i-s-kursovaya9-фотокиоск-e",
+  "external": false,
+  "caption": "Фотокиоск",
+  "name": "IISKursovaya9ФотокиоскL",
+  "className": "ФотокиоскL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya9-фотокиоск",
+      "modelProjection": "ФотокиоскL"
+    }
+  ]
+}

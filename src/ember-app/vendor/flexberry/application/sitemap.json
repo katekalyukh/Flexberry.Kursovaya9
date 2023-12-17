@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Kursovaya9",
+  "applicationTitle": "Kursovaya9",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya9",
+      "caption": "Kursovaya9",
+      "title": "Kursovaya9",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya9-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya9-печать-фото-l",
+          "menuName": null,
+          "caption": "Печать фото",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya9-фотокиоск-l",
+          "menuName": null,
+          "caption": "Фотокиоск",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

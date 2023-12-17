@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya9-оплата-e",
+  "editForm": "i-i-s-kursovaya9-оплата-e",
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISKursovaya9ОплатаL",
+  "className": "ОплатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya9-оплата",
+      "modelProjection": "ОплатаL"
+    }
+  ]
+}

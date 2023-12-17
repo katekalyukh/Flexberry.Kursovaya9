@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Печать фото",
+  "name": "IISKursovaya9ПечатьФотоE",
+  "className": "ПечатьФотоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya9-печать-фото",
+      "modelProjection": "ПечатьФотоE"
+    }
+  ]
+}

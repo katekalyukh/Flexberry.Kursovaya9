@@ -1,0 +1,1 @@
+docker-compose -p kursovaya9-java down

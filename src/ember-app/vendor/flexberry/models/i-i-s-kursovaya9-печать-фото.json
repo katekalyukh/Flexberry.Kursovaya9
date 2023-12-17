@@ -1,0 +1,139 @@
+﻿{
+  "name": "IISKursovaya9ПечатьФото",
+  "modelName": "i-i-s-kursovaya9-печать-фото",
+  "className": "ПечатьФото",
+  "nameSpace": "IIS.Kursovaya9",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "видФото",
+      "type": "i-i-s-kursovaya9-выбор-вида",
+      "flexberryType": "ВыборВида",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЗаказа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "носитель",
+      "type": "i-i-s-kursovaya9-вид-носителя",
+      "flexberryType": "ВидНосителя",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "фотокиоск",
+      "relatedTo": "i-i-s-kursovaya9-фотокиоск",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "коррекция",
+      "relatedTo": "i-i-s-kursovaya9-коррекция",
+      "inverse": "печатьФото"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПечатьФотоE",
+      "modelName": "i-i-s-kursovaya9-печать-фото",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "носитель",
+          "caption": "Носитель",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "видФото",
+          "caption": "Фото",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "КоррекцияE",
+          "caption": "Коррекция",
+          "name": "коррекция",
+          "relatedTo": "i-i-s-kursovaya9-коррекция",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПечатьФотоL",
+      "modelName": "i-i-s-kursovaya9-печать-фото",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "носитель",
+          "caption": "Носитель",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "видФото",
+          "caption": "Фото",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
